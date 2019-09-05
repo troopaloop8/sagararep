@@ -147,7 +147,7 @@ header {
     ),
     url(img/hero-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)),
-    url(/resources/img/front1.png);
+    url(/sagararep/resources/img/front1.png);
   background-size: cover;
   background-position: top;
   height: 90vh;
