@@ -1,0 +1,234 @@
+
+
+/* Big Tablets to 1200px (widths smaller than the 1140 px row) */
+@media only screen and (max-width: 1200px) {
+    .info-boi {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+}
+
+@media only screen and (max-width: 1140px) {
+    .hours-boi.span-1-of-3 {
+        width: 29%;
+        margin-left: 10%;
+        font-size: 69%
+    }
+    .hours-boi h4 {
+        font-size: 180%;
+    }
+}
+    
+
+@media only screen and (max-width: 1100px) {
+#location-boi {
+    width: 270px;
+    
+}
+.hours-map-boi  {
+    line-height: 35px;
+    font-size: 75%;
+}
+.top-nav {
+    width: 100%;
+    padding: 5px 30px 5px 10px;
+ 
+}
+}
+
+/*targets iPad in portrait mode (iPad landscape has 1024px) -- tablet to big tablet 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+    body { font-size: auto;}
+    section { padding: 60px 0;}
+    h2 {font-size: 225%}
+    .super-section-boi2 {
+        width: 95%;
+        margin-left: 2.5%;
+        font-size: 90%;
+    }
+    .table-boi {
+        margin: 3%;
+        padding-right: 3%;
+        font-size: 65%;
+        border-collapse: separate;
+    
+    }
+    .dark-brown-boi{
+        font-size: auto;
+    }
+    .increment-size-boi {
+        
+        width: 2x9%;
+    }
+    
+    .alpha-boi {
+        margin-top: 19px;
+        text-align: left;
+        font-size: 115%;
+        color: #5a5452;
+        margin-bottom: 10px;
+    }
+    
+    .beta-boi {
+        font-size: 70%;
+        line-height: 140%;
+        text-align: justify;
+    }
+    .img-boi {
+        height: auto;
+        width: auto;
+        border-radius: 5px;
+        max-width: 200px;
+        display: inline-block;
+        margin: 15% 2px 5%
+
+
+    }
+    .img-chef-boi {
+        margin-left: 30%;
+        height: 165px;
+    }
+    .meal-photo-boi img {
+        opacity: 0.7;
+        width: 100%;
+        height: 250px;
+        -webkit-transform: scale(1.15);
+                transform: scale(1.15);
+        -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+        transition: opacity 0.5s, -webkit-transform 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    }
+    .logo-blue {
+        width: 85px;
+    }
+    .top-nav {
+        font-size: 90%;
+    }
+    .hours-map-boi  {
+        line-height: 37px;
+        font-size: 56%;
+    }
+    .hours-boi.span-1-of-3 {
+        width: 23%;
+        margin-left: 17%;
+        font-size: 54%
+   }
+   .hours-boi.span-1-of-3 h4 {
+    
+    font-size: 160%
+}
+  
+  
+   div.card-boi {
+       width: 500px;
+   }
+   div.front-boi {
+       width: 500px;
+   }
+   div.container-boi {
+       width: 500px;
+   }
+   .info-boi {
+    font-size: 90%;
+}
+}
+@media only screen and (max-width: 767px) {
+    h2 {
+      font-size: 250%;
+    }
+  
+
+
+
+/*for phones smaller than iPad -- iPad has 768px: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: auto; }
+    
+    .top-nav {
+    width: 100%;
+    padding: 5px 30px 10px 10px;
+   
+    }
+
+    .row, 
+    .hero-text-box {padding: 0 4%; }
+
+    .col { 
+        width: 100%;
+        margin: 0% 0% 4% 0%;
+    }
+
+    .main-nav {
+        font-size: 70%;
+    }
+
+    
+
+    h1 { font-size: 180%}
+    h2 {font-size: 150%}
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    
+    .works-step {margin-bottom: 20px;  }
+    .works-step:last-of-type {margin-bottom: 20px;}
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+        font-size: 120%;
+        margin-right: 15px; 
+    }
+
+    .steps-box:first-child {text-align: center;}
+    .app-screen { width: 40%; }
+    
+    .works-step p { font-size: 110%;}
+
+    .hours-map-boi  {
+        line-height: 38px;
+        font-size: 45%;
+    }
+    div.card-boi {
+        width: 400px;
+    }
+    div.front-boi {
+        width: 400px;
+    }
+    div.container-boi {
+        width: 400px;
+    }
+    .hours-boi.span-1-of-3 {
+        width: 25%;
+        margin-left: 14%;
+        font-size: 48%;
+        margin-right: -10px;
+   }
+   .hours-boi.span-1-of-3 h4 {
+    
+    font-size: 150%
+    }
+
+    #location-boi {
+        margin-left: -5%;
+        margin-right: 10%;
+        position: absolute    
+    }
+
+    .info-boi {
+        font-size: 80%;
+    }
+
+    
+}
+
+
+
+
+

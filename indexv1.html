@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>シェ・サガラ</title>
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+    
+
+    <link
+      href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,800&display=swap&subset=japanese"
+      rel="stylesheet"
+    />
+   
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/vendors/css/ionicons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/vendors/css/Grid.css" />
+    <link rel="stylesheet" type="text/css" href="/vendors/css/animated.css" />
+    <!--scripts and css for animated event calendar-->
+    <link rel="stylesheet" type="text/css" href="/vendors/css/calendar-style.css">
+    <!--Scripts and CSS for materialize css effects-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendors/js/materialize.min.js"></script>        
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="/vendors/css/materialize.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  </head>
+  <body onload="startTime()" >
+    <header id="home-section-boi">
+      <div class="top-nav">
+        <div class="row">
+          <img
+            src="/resources/img/blue_logo.gif"
+            alt="sagara logo"
+            class="logo-blue"
+          />
+          <ul class="main-nav">
+            <li><a href="#product-info">商品のご案内</a></li>
+            <li><a href="#about">シェ・サガラについて</a></li>
+            <li><a href="#topics">トピックス</a></li>
+            <li><a href="#access">アクセス</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="top-box2 row"> 
+          <span class="info-boi row">
+              <table>
+                  <tr>
+                    <th>住所</th>
+                    <th>〒839−1213福岡県久留米市田主丸町益生田873-12</th>
+                  </tr>
+                  <tr>
+                    <th>電話番号</th>
+                    <th>0943-73-3680</th>
+                  </tr>
+                  <tr>
+                    <th>営業時間　</th>
+                    <th>9:00〜18:00 (土・日・祝日は　9:00〜18:00) <br>
+                      土 • 日 • 祝日10:00〜18:00平日9:00〜18:00</th>
+                  </tr>
+                  <tr>
+                      <th>定休日</th>
+                      <th>火曜・水曜</th>
+                  </tr>
+                  
+                </table>
+          </span>
+          
+            
+        
+        
+        
+        <!--original welcome message
+        <h1>
+          ようこそ、
+          <span
+            class="typer"
+            id="main"
+            data-words="パン,焼き菓子,サンド"
+            data-delay="150"
+            data-deleteDelay="1500"
+            data-colors="#cbdcea"
+          ></span>
+          <span
+            class="cursor"
+            data-owner="main"
+            data-cursor-display="&hearts;"
+          ></span>
+          <br />
+          シェ・サガラへ
+        </h1>-->
+      </div>
+      
+    </header>
+    
+    <section id="product-info">
+     
+      <h2 class="smokey-boi">商品のご案内</h2>
+      <div class="underline-boi"></div>
+      <br>
+      <br>
+      <div class="super-section-boi2 z-depth-2">
+        <ul class="meals-showcase-boi clearfix">
+            <li>
+              <figure class="meal-photo-boi">
+                <img
+                  src="/resources/img/pan.jpg"
+                  alt="bread1"
+                />
+              </figure>
+            </li>
+            <li>
+              <figure class="meal-photo-boi">
+                <img
+                  src="/resources/img/jam.jpg"
+                  alt="bread2"                />
+              </figure>
+            </li>
+            
+          </ul>
+        <div class="row js--wp-1">
+            <div class="col span-1-of-2 box-boi">
+              <i class="icon-big">
+                <div class="center-boi-2 smokey-boi">パン</div>
+              </i>  
+              <p>
+                  パンのおいしさを引き出す材料や製法にこだわって、
+                  生地もトッピング（あんこ・クリーム・フィリング等）
+                  もすべて手作り。小麦の香りや旬の食材など様々な素材の味をお楽しみください。
+                  <p><span class="headline-news">※パンは品質保持の為、発送はしておりませんのでご了承ください。店頭での受け取りのご予約は承っております。</span></p>
+                  <br>
+                  <div class="row compact-boi">
+                  <div class="col span-2-of-13">
+                    <p class="small-boi"><span class="increment-size-boi">食事パン</span></p>
+                  </div>
+                  <div class="col span-4-of-13">
+                      <p><span class="dark-brown-boi">外はカリッと中はしっとり、<br>
+                        小麦の香りと口当たりにこだわって焼き上げています。</span></p>
+                  </div>
+                </div>
+                <div class="row compact-boi">
+                    <div class="col span-2-of-13">
+                      <p class="small-boi"><span class="increment-size-boi">デニッシュ</span></p>
+                    </div>
+                    <div class="col span-4-of-13">
+                        <p><span class="dark-brown-boi">バターの香りを楽しむためにしっかりとき込んだ生地に、<br>
+                          旬のフルーツやクリームを組み合わせました。</span></p>
+                    </div>
+                </div>
+                <div class="row compact-boi">
+                    <div class="col span-2-of-13">
+                      <p class="small-boi"><span class="increment-size-boi">菓子パン</span></p>
+                    </div>
+                    <div class="col span-4-of-13">
+                        <p><span class="dark-brown-boi">日本ならではのメロンバンや練乳バン、あんバンなど、<br>
+                          素朴なバンもお作りしてます。</span></p>
+                    </div>
+                  </div>
+              </p>
+            </div>
+            <div class="col span-1-of-2 box-boi">
+              <i class="icon-big">
+                <div class="center-boi-2 smokey-boi">ジャム</div>
+              </i>
+              <p>
+                  旬の果物を使った自家製のジャムです。
+                  香料を加えずに新鮮なフルーツの香りを残しましたバンにもヨーグルトにも合うように、
+                  酸味と甘みのバランスを考えてお作りしております。
+              </p>
+              <br>
+              <p><span class="headline-news">
+                      ※現在ネットでの販売はしておりません。準備が整い次第ネット販売もする予定でおりますので、しばらくの間ご了承下さい。<br>
+                      ※季節によってお取扱商品が異なります。ご了承ください。</span>
+              </p>
+              <br>
+              <p><span class="list-boi">
+                  伊予柑 <span class="increment-size-boi">＊</span> 
+                  日向夏 <span class="increment-size-boi">＊</span> 
+                  清見オレンジ <span class="increment-size-boi">＊</span>
+                  いちご <span class="increment-size-boi">＊</span>
+                  ジューシーオレンジ <span class="increment-size-boi">＊</span> 
+                  キウイ <span class="increment-size-boi">＊</span>
+                  あんず <span class="increment-size-boi">＊</span>
+                  桃 <span class="increment-size-boi">＊</span>
+                  バイナップル <span class="increment-size-boi">＊</span>
+                  ブルーベリー <span class="increment-size-boi">＊</span>
+                  ルバーブ <span class="increment-size-boi">＊</span> 
+                  いちじく <span class="increment-size-boi">＊</span>
+                  バッション＆マンゴー <span class="increment-size-boi">＊</span> 
+                  リんごなど
+                </span>
+              </p>
+
+              
+            </div>
+          </div>
+          
+          <br>
+          <br>
+          <br>
+        
+          <div>
+              <ul class="meals-showcase-boi clearfix">
+                <li>
+                  <figure class="meal-photo-boi">
+                    <img
+                      src="/resources/img/gateau.jpg"
+                      alt="bread5"                />
+                  </figure>
+                </li>
+                <li>
+                  <figure class="meal-photo-boi">
+                    <img
+                      src="/resources/img/cafe1.jpg"
+                      alt="bread6"                />
+                  </figure>
+                </li>
+                
+              </ul>
+            </div>
+          <div class="row js--wp-1"> 
+            <div class="col span-1-of-2 box-boi">
+              <i class="icon-big">
+                <div class="center-boi-2 smokey-boi">焼き菓子</div>
+              </i>
+              <p>
+                  材料にこだわって丁寧にお作リした焼き菓子です。贈り物には、お好みで詰め合わせもいたします。
+              </p>
+              <p><span class="headline-news">※現在ネットの販売はしておりません。準備が整い次第ネット販売もする予定でおりますので、しばらくの間ご了承下さい。<br>
+                 ※季節によってお取扱商品が異なります。ご了承ください。</span>
+              </p>
+              <div class="row compact-boi">
+               <div class="col span-2-of-13">
+                  <p class="small-boi"><span class="increment-size-boi">クッキー</span></p>
+                  </div>
+                    <div class="col span-4-of-13">
+                        <p><span class="dark-brown-boi">
+                            ココナツ <span class="increment-size-boi">＊</span> 
+                            ショコラ <span class="increment-size-boi">＊</span> 
+                            カシューナッツ <span class="increment-size-boi">＊</span> <br>
+                            サブレナンテ <span class="increment-size-boi">＊</span>
+                            フロマージュ <span class="increment-size-boi">＊</span> 
+                            抹茶＆黒胡麻 
+                        </span></p>
+                    </div>
+                  </div>
+              <div class="row compact-boi">
+                      <div class="col span-2-of-13">
+                        <p class="small-boi"><span class="increment-size-boi">パイ</span></p>
+                      </div>
+                      <div class="col span-4-of-13">
+                          <p><span class="dark-brown-boi">アーモンドパイ</span></p>
+                      </div>
+                    </div>
+              <div class="row compact-boi">
+                        <div class="col span-2-of-13">
+                          <p class="small-boi"><span class="increment-size-boi">パウンドケーキ</span></p>
+                        </div>
+                        <div class="col span-4-of-13">
+                          <p><span class="dark-brown-boi">
+                              ショコラ <span class="increment-size-boi">＊</span> 
+                              オレンジ <span class="increment-size-boi">＊</span> 
+                              抹茶＆大納言 <span class="increment-size-boi">＊</span> <br>
+                              パイン＆ココナツ 
+                            </span></p>
+                        </div>
+              </div>
+              <div class="row compact-boi">
+                  <div class="col span-2-of-13">
+                    <p class="small-boi"><span class="increment-size-boi">その他</span></p>
+                  </div>
+                  <div class="col span-4-of-13">
+                      <p><span class="dark-brown-boi">
+                          ダックワーズ <span class="increment-size-boi">＊</span> 
+                          レモンのマドレーヌ <span class="increment-size-boi">＊</span> 
+                          エコス <span class="increment-size-boi">＊</span> <br>
+                          フィナンシェ <span class="increment-size-boi">＊</span>
+                          ガレット <span class="increment-size-boi">＊</span> 
+                          プレオ 
+                      </span></p>
+                  </div>
+              </div>
+            </div>
+            <div class="col span-1-of-2 box-boi">
+              <i class="icon-big">
+                <div class="center-boi-2 smokey-boi">カフェ</div>
+              </i>
+              <p>
+                  焼き立てのバンを店内でもお召し上がりいただけます。パンの温め直しもいたしますので、
+                  お気軽にお申し付けください。挽き立てのドリップコーヒーや各種お飲み物もご用意しております。
+              </p>
+              <img src="/resources/img/cafe2.jpg" alt="coffee" class="image-boi">
+              
+            </div>
+          </div>
+    </section>
+
+    <section class="about-us-section" id="about">
+        <h2 class="smokey-boi">シェ・サガラについて</h2>
+        <div class="underline-boi1"></div>
+        <br>
+        <br>
+        <div class="row z-depth-2 back-opacity-boi">
+          <div class="col span-2-of-3">
+            <div class="alpha-boi">オーナーシェフ　<br>
+             相良　一公 <br>
+            </div>
+            <div class="beta-boi">プロファイル　<br>  1972年　福岡生まれ
+              福岡大学卒業後、「菓子工房ミレイユ」「ホテル日航福岡ベーカリー」を経て岐阜県高山市
+              「トラン・ブルー」成瀬氏に師事。２００３年「CHEZ　SAGARA」をオープン。
+            </div>
+          </div>
+          <div class="col span-1-of-3">
+            <img class="img-boi img-chef-boi" src="/resources/img/kazu.jpg" alt="Sagara Owner">
+          </div>
+        </div>
+        <br>
+        <div class="row z-depth-2 back-opacity-boi ">
+            <div class="col span-1-of-3">
+              <img class="img-boi"  src="/resources/img/mino.png" alt="mino">
+            </div>
+            <div class="col span-2-of-3 ">
+                <div class="alpha-boi text-right-boi">田主丸にて</div>
+                <div class="beta-boi text-right-boi">私の生まれ育った故郷、田主丸。耳納連山の麓には果樹園、
+                  筑後川沿いには田園が広がりどこか懐かし風紀がいつも心を癒してくれます。美味しい果物だけでなく、
+                  雄大な自然に囲まれた田主丸の美味しい水と空気美味しいパンづくりに欠かせないものです。
+                </div>
+              </div>
+        </div>
+        <br>
+        <div class="row z-depth-2 back-opacity-boi ">
+              <div class="col span-2-of-3">
+                <div class="alpha-boi">シェ・サガラ</div>
+                <div class="beta-boi">子供の頃からパンが大好きだった私は、母がおいしいパンを買ってきてくれると、
+                  翌日の朝が楽しみで夜寝る時からワクワクした程でした。
+                  お店の顔のマークは食べたら思わず笑顔がこぼれるような本物の美味しさを皆様にお届けしたいという思いを込めたものです。
+                  （皆さん、私の顔がモデルだと思っているようですが…!?）
+                  「シェ・サガラはフランス語で「相良さん家」という意味。地元の方だ味でなく、
+                  田主丸に観光にいらしたお客様にも気軽に立ち寄ってもらえるようなお店に出来たらいいなあと思っています。</div>
+              </div>
+              <div class="col span-1-of-3">
+                <img class="img-boi" src="/resources/img/location.png" alt="store front">
+              </div>
+        </div>
+        <br>
+        <div class="row z-depth-2 back-opacity-boi ">
+            <div class="col span-1-of-3">
+              <img class="img-boi" src="/resources/img/selection.png" alt="store selection">
+            </div>
+            <div class="col span-2-of-3">
+                <div class="alpha-boi text-right-boi">パンの思い</div>
+                <div class="beta-boi text-right-boi">田主丸の自然の恵みを生かし、生地はもちろん、
+                  館こやクリーム等トッピングもすべて手作りでお作りしています。香ばしい小麦の香り、
+                  ライ麦のコクと酸味バターの芳醇な香りと旨味、フルーツのみずみずしさと木の実の香ばしさ、
+                  それぞれの素材らしさを引き出したパンを作って行きたいと思います</div>
+              </div>
+        </div>
+    </section>
+
+    <section>
+      <!-- HERE IN CASE THIS IS A SOCIAL SECTION
+        <h2 class="smokey-boi">INSTAGRAM</h2>
+        <div class="underline-boi"></div>
+        <br>
+
+        -->
+        <br>
+
+      
+        <ul class="meals-showcase clearfix">
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img
+                src="/resources/img/1.png"
+                alt="bread1"
+              /></a>
+            </figure>
+          </li>
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img
+                src="/resources/img/2.png"
+                alt="bread2"                /></a>
+            </figure>
+          </li>
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img
+                src="/resources/img/3.png"
+                alt="bread3"                /></a>
+            </figure>
+          </li>
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img src="/resources/img/4.png" alt="bread4" /></a>
+            </figure>
+          </li>
+        </ul>
+        <ul class="meals-showcase clearfix">
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img
+                src="/resources/img/5.png"
+                alt="bread5"                /></a>
+            </figure>
+          </li>
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img
+                src="/resources/img/6.png"
+                alt="bread6"                /></a>
+            </figure>
+          </li>
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img
+                src="/resources/img/7.png"
+                alt="bread7"                /></a>
+            </figure>
+          </li>
+          <li>
+            <figure class="meal-photo">
+              <a href="" class="meals-instagram-boi"> <img
+                src="/resources/img/8.png"
+                alt="bread8"                /></a>
+            </figure>
+          </li>
+        </ul>
+    </section>
+
+
+    <section class="topics-section" id="topics">
+      <div class="container">
+          <h2 class="smokey-boi">トピックス</h2>
+          <div class="underline-boi2"></div>
+          <br>
+            <ul class="collapsible popout">
+              <li class="active">
+                <div class="collapsible-header"><i class="ion-calendar"></i>2017.10.15</div>
+                <div class="collapsible-body">
+                  <span class="headline-news">	■イベント出店のお知らせ</span>
+                  <span class="detail-news">『第２回大丸・天神マルシェ〈大丸パン展×山手のマルシェ〉』<br>
+                      大丸福岡天神店８階催事場にて <br>
+                      ※10月30日（月）最終日のみ【第１便】11時～、【第２便】13時～販売予定 <br>
+                      ※催事は10時オープンですが、シェ・サガラの販売は11時からになります。<br>
+                      ※売り切れ次第終了させていただきます。</span>
+                </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2017.03.19</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■『あだちコーヒー警固店』にてパンの店頭販売をいたします。</span>
+                    <span class="detail-news">毎月第4月曜日に『あだちコーヒー警固店』にてパンの店頭販売をいたします。<br>
+                        ご近隣の皆さま、よろしくお願いいたします。<br>
+                        ※13時～売り切れ次第終了 <br>
+                        ※店頭販売は警固店のみです。<br>
+                        ※予定が変更される事もありますので、ご了承下さいませ。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2011.03.21</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■イベント出店のお知らせ</span>
+                    <span class="detail-news">西日本リビング新聞社25周年記念チャリティーイベントに出店いたします。<br>
+                        ■3/24(木) JR博多シティ 9F JR九州ホールにて <br>
+                        「キレイ＆元気フェスタ」の『ガールズナイトマーケット』<br>
+                        ※18:00～21:00まで <br>
+                        ■3/30(水) リバーウォーク北九州 1F エナジーコートにて『ままとこマルシェ』<br>
+                        ※イベントの開始時間は10:00～ですが、弊店の出店時間は13:00～となっております。売り切れ次第終了とさせて頂きます。</span>
+                  </div>
+              </li>
+              <!--
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2011.03.05</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■イベント出店のお知らせ</span>
+                    <span class="detail-news">■3/11(金) 、3/12(土) <br>
+                        岩田屋 本館地下1階 (食品中央催事場)にて『福岡街のパンやさん特集』に出店いたしました。ありがとうございました。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2011.02.25</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■急募　製造・販売スタッフ募集中</span>
+                    <span class="detail-news">詳しくは「スタッフ募集ページ」をご覧下さい。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2009.02.08</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■岩田屋天神店に出店します</span>
+                    <span class="detail-news">2月25日(水)～3月2日(月)まで、天神岩田屋の「岩田屋定番コレクション2009春」(本館7階＝大催事場)にシェ・サガラが出店しました。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2008.12.28</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■クリスマス商品は終了いたしました</span>
+                    <span class="detail-news"></span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2008.02.22</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■岩田屋天神店に出店します</span>
+                    <span class="detail-news">3月5日(水)～3月11日(火)まで、天神岩田屋の地下１階にて「ブレッドフェスティバル」にシェ・サガラが出店しました。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.12.28</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■クリスマス商品は終了いたしました</span>
+                    <span class="detail-news"></span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.10.27</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■秋の新商品のお知らせ</span>
+                    <span class="detail-news">終了させていただきました。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.05.10</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■桜のデニッシュの販売を終了させていただきました</span>
+                    <span class="detail-news-img">
+                        桜の葉の塩漬けを混ぜ込んだピスタチオクリームを焼き込み、桜の葉の塩漬と一緒にコンポートしたサワーチェリーをのせた、香り豊かなデニッシュです。和菓子ではよく使われる桜の葉ですが、デニッシュの香ばしさにもとても良く合います。「甘しょっぱい」味わいがお好きな方にオススメです！	桜のデニッシュ
+                        <img src="/resources/img/sakura_s.jpg" alt="さくらパン" class="left"></span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.01.31</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■AZ-CLUBマガジンをご覧になられましたお客様へ</span>
+                    <span class="detail-news">ご反響をいただき、誠にありがとうございます。宅配のお問い合わせをたくさんいただいておりますが、弊店におきましては商品の品質保持上、パンの発送はいたしておりませんので何卒ご了承くださいませ。<br>
+                        ※焼き菓子とジャムについては発送を受け付けております。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.01.31</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■臨時休業のお知らせ</span>
+                    <span class="detail-news">2月22日(木)から2月27日(火)は 2008クープ・デュ・モンド 日本代表選考大会出場の為、お休みさせていただきます。3月にも臨時休業をいただきます。3月6日(火)は営業、3月7日(水)に臨時休業を頂きます。何卒ご了承下さいませ。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.01.31</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■天神岩田屋に出店します</span>
+                    <span class="detail-news">2月28日(水)～3月6日(火)まで、天神岩田屋の地下1階にて「スウィーツ＆ブレッドフェスティバル」にシェ・サガラが出店しました。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.01.31</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■岩田屋情報誌の取材を受けました</span>
+                    <span class="detail-news">岩田屋の情報誌「AZ-CLUBマガジン」vol.179/Feb/2007の「九州をつむぐ」というコーナーに弊店の記事を掲載していただきました。</span>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header"><i class="ion-calendar"></i>2007.01.21</div>
+                  <div class="collapsible-body">
+                    <span class="headline-news">■RKB放送「味わい・ぶらり旅」の取材を受けました</span>
+                    <span class="detail-news">1月21日(日)RKB毎日放送「味わい・ぶらり旅」で弊店を紹介していただきました。</span>
+                  </div>
+              </li>-->
+            </ul>
+            <div class="tiny-boi">
+              <a href="#">もっと</a>
+            </div>
+          </div>   
+    </section>
+    <div class="super-section-boi z-depth-2">
+      <div class="calendar-container-boi col span-3-of-5 ">
+        <div class="container-boi ">
+          <div class="card-boi z-depth-2">
+            <div class="front-boi">
+              <div class="contentfront-boi">
+                <div class="month">
+                  <table>
+                    <tr class="orangeTr">
+                      <th>月</th>
+                      <th class="day-off">火</th>
+                      <th class="day-off">水</th>
+                      <th>木</th>
+                      <th>金</th>
+                      <th>土</th>
+                      <th>日</th>
+                    </tr>
+                    <tr class="whiteTr">
+                      <th></th>
+                      <th><span class="round-round">1</span></th>
+                      <th><span class="round-round">2</span></th>
+                      <th>3</th>
+                      <th>4</th>
+                      <th>5</th>
+                      <th>6</th>
+                    </tr>
+                    <tr class="whiteTr">
+                      <th>7</th>
+                      <th><span class="round-round">8</span></th>
+                      <th><span class="round-round">9</span></th>
+                      <th>10</th>
+                      <th>11</th>
+                      <th>12</th>
+                      <th>13</th>
+                    </tr>
+                    <tr class="whiteTr">
+                      <th>14</th>
+                      <th><span class="round-round">15</span></th>
+                      <th><span class="round-round">16</span></th>
+                      <th>17</th>
+                      <th>18</th>
+                      <th>19</th>
+                      <th>20</th>
+                    </tr>
+                    <tr class="whiteTr">
+                      <th><span class="round-round-brown">21</span></th>
+                      <th><span class="round-round">22</span></th>
+                      <th><span class="round-round">23</span></th>
+                      <th>24</th>
+                      <th>25</th>
+                      <th>26</th>
+                      <th>27</th>
+                    </tr>
+                    <tr class="whiteTr">
+                      <th>28</th>
+                      <th><span class="round-round">29</span></th>
+                      <th><span class="round-round">30</span></th>
+                      <th>31</th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </table>
+                </div>
+                <div class="date">
+                  <div class="datecont smokey-boi">
+                    <div id="date"></div>
+                    <br>
+                    <br>
+                    <div id="month"></div>
+                    <br>
+                     <br>
+                    <div id="day"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="back-boi">
+              <!---<div class="contentback">
+                <div class="backcontainer">
+                  hhh
+                </div>
+              </div>--->
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="hours-boi col span-1-of-3">
+          
+            <h4 class="smokey-boi">7月休業のお知らせ</h4>
+            
+            <div class="notice-spacing-boi"><span class="round-round"></span> はお休み </div>
+            <div class="notice-spacing-boi "><span class="round-round-brown"></span> は「あだちコーヒー警固店」にてパンの <div class="spacing-boi">　　店頭販売をいたします。<br>　　※１３時〜売り切れ次第終了</div></div>
+            <div></div>
+            <div class="bus-hours-boi">営業時間のお知らせ　<br>土 • 日 • 祝日　10:00〜18:00 <br> 平日　9:00〜18:00</div>
+
+        </div>
+      </div>
+      </section>
+
+      <section id="access"> 
+        <br>
+        <br>
+        <div class="hours-left-boi">
+          <div class="hours-map-boi col span-1-of-2">
+              <table>
+                  <tr>
+                    <th>住所</th>
+                    <th>〒839−1213福岡県久留米市田主丸町益生田873-12</th>
+                  </tr>
+                  <tr>
+                    <th>電話番号</th>
+                    <th>0943-73-3680</th>
+                  </tr>
+                  <tr>
+                    <th>営業時間　</th>
+                    <th>9:00〜18:00 (土・日・祝日は　9:00〜18:00) <br>
+                      土 • 日 • 祝日10:00〜18:00平日9:00〜18:00</th>
+                  </tr>
+                  <tr>
+                      <th>定休日</th>
+                      <th>火曜・水曜</th>
+                  </tr>
+                  
+                </table>
+            
+              
+              
+              
+            
+              
+        
+            </div>
+            
+            
+        
+          </div>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5803.785357527986!2d130.6860730336472!3d33.33451424357192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35410b3ddc9db049%3A0xd4cbc547c27823f3!2sChez+Sagara!5e0!3m2!1sen!2sjp!4v1562739983891!5m2!1sen!2sjp" class="map-boi z-depth-2" allowfullscreen></iframe>
+        </div>
+      
+      </div>
+      </section>
+
+      <footer>
+          <div class="row">
+            <div class="col span-1-of-2">
+              <ul class="footer-nav">
+                <li><a href="#home-section-boi">HOME</a></li>
+                
+              </ul>
+            </div>
+            <div class="col span-1-of-2">
+              <ul class="social-nav">
+               
+                <li>
+                  <a href="https://www.instagram.com/explore/locations/304271320392191/chez-sagara/?hl=en"><i class="ion-social-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <p>
+                お問い合わせはお電話にてお願いいたします。            </p>
+          </div>
+        </footer>
+      
+        
+      
+        
+        
+
+      <!--SCRIPT FOR AN INSTAGRAM FEED -- http://instafeedjs.com/ ----
+    <script type="text/javascript" src="vendors/js/instafeed.min.js"></script>
+ -->
+
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="/resources/js/script.js"></script>
+        <!--scripts and css for animated event calendar-->
+    <script type="text/javascript"" src="/vendors/js/moment.js"></script>
+    <script type="text/javascript"" src="/vendors/js/underscore.js"></script>
+    <script type="text/javascript" src="/vendors/js/calendar-script.js"></script>
+    <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIMTegYoyqD6q1hkvLh201H4Oj_j5HZgU&callback=initMap">
+</script>
+
+   
+
+  </body>
+</html>
+
+<!--
+  <link rel="stylesheet" type="text/css" href="/vendors/css/materialize.min.css">
+-->

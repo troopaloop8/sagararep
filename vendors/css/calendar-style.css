@@ -1,0 +1,268 @@
+.calendar-container-boi {
+  margin-bottom: 150px;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:400px;
+
+}
+.container-boi {
+  width:590px;
+  height:370px;
+  position:relative;
+  perspective: 1000px;
+  left:8%;
+  top: 5%;
+}
+.card-boi {
+  width:100%;
+  height:100%;
+  position:absolute;
+  transform-style:preserve-3d;
+  transition:transform 1s ease;
+  cursor:pointer;
+}
+.back-boi, .front-boi{
+  border-radius:6px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  backface-visibility:hidden;
+}
+.contentfront-boi {
+  width:100%;
+  height:100%;
+  float:left;
+  transform:translatez(60px);
+  backface-visibility: hidden;
+  transform-style:preserve-3d;
+  
+}
+.contentback{
+  width:100%;
+  height:100%;
+  float:left;
+  transform:translatez(-60px);
+  backface-visibility: hidden;
+  transform-style:preserve-3d;
+  
+}
+.back-boi{
+  transform:rotateY(180deg);
+  background-color:#292012;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/*calendar color*/
+.front-boi{
+  text-transform:uppercase;
+  background-color:#84919c7e;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+}
+.date{
+  height:100.09%;
+  width:33.7%;
+  float:left;
+  background-color:#754c3ea8;
+  border-radius:0 6px 6px 0;
+  text-align:right;
+  padding:10px 30px;
+  box-sizing:border-box;
+  transform-style:preserve-3d;
+}
+.datecont{
+  height:100%;
+  transform:translatez(60px) scale(.9);
+}
+#date{
+  font-size:40px;
+  color:#fcfbfa;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight:300;
+  float:right;
+  line-height: 250%;
+}
+#day{
+  float:right;
+  font-size:44px;
+  color:#fcfbfa;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight:300;
+  line-height: 250%;
+}
+#month{
+  float:right;
+  font-size:36px;
+  color:#fcfbfa;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight:300;
+  line-height: 150%;
+}
+@media only screen and (max-width: 1023px) {
+  #date{
+    font-size:30px;
+    color:#fcfbfa;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:300;
+    float:right;
+    line-height: 350%;
+  }
+  #day{
+    float:right;
+    font-size:34px;
+    color:#fcfbfa;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:300;
+    line-height: 350%;
+  }
+  #month{
+    float:right;
+    font-size:26px;
+    color:#fcfbfa;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:300;
+    line-height: 350%;
+  }
+
+
+}
+@media only screen and (max-width: 767px) {
+  #date{
+    font-size:21px;
+    color:#fcfbfa;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:300;
+    float:right;
+    line-height: 350%;
+  }
+  #day{
+    float:right;
+    font-size:24px;
+    color:#fcfbfa;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:300;
+    line-height: 350%;
+  }
+  #month{
+    float:right;
+    font-size:19px;
+    color:#fcfbfa;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight:300;
+    line-height: 350%;
+  }
+}
+
+.date i{
+  color:#ECECE7;
+  position:absolute;
+  bottom:10px;
+  right:0;
+}
+.date i:hover{
+  color:#fcfbfa;
+  transition:.3s ease;
+}
+.day-off-boi {
+  color: #ffffff;
+  text-align: center;
+}
+
+.month{
+  height:100%;
+  width:66.3%;
+  float:left;
+  padding:20px 30px;
+  box-sizing:border-box;
+}
+.month table{
+  width:100%;
+}
+.orangeTr{
+  color:rgb(134, 91, 9);
+  font-size: 20px;
+  text-align: center;
+  }
+
+  .orangeTr th {
+    height: 50px;
+    width: 50px;
+  }
+/******color for days off****/
+.day-off-boi {
+  text-align: center
+}
+
+.round-round, .round-round-brown {
+  color: #292012;
+  background-color: #cbdcea;
+  border: 1px solid #e67e22;
+  display: inline-block;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  padding: 3px 1px 0 0;
+  float: left;
+  margin-right: 2px;
+
+ 
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+
+}
+
+.round-round-brown {
+  background-color: #e9d8ca;
+  border: 1px solid #e67e22;
+}
+
+
+
+.whiteTr{
+  color:#a75915;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 3px;
+}
+.whiteTr th:hover{
+  color:#754c3e;
+  transition:.3s ease;
+
+}
+.month tr{
+  height:24px;
+}
+.month th{
+  width:14%;
+  font-size:12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  text-align: center;
+}
+
+.flipped{
+  transform:rotateY(-180deg);
+  /*height:400px;
+  width:200px;
+  left:calc(50% - 100px);
+  top:calc(50vh - 200px);*/
+}
+.backcontainer{
+    backface-visibility: hidden;
+  transform-style:preserve-3d;
+  width:calc(100% - 60px);
+  height:calc(100% - 40px);
+  float:left;
+  margin-left:30px;
+  margin-top:20px;
+  border-left:solid #754c3e 5px;
+  background-color: #754c3e;
+  transform:translatez(-60px) scale();
+}
